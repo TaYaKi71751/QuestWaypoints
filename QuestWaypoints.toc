@@ -1,0 +1,13 @@
+## Interface: 40400
+## Author: Ratzee (seressrihi@gmail.com)
+## Title: QuestWaypoints
+## Version: 1.0.1
+## Notes: Track quests on world map and minimap with pins. Tracked quest blob, direction arrow and progress on minimap.
+## X-Curse-Project-ID: 1027670
+
+lib\HereBeDragons\HereBeDragons-2.0.lua
+lib\HereBeDragons\HereBeDragons-Pins-2.0-QuestWaypoints.lua
+
+xml\CustomQuestBlobDataProvider.xml
+mixin\CustomQuestBlobDataProviderMixin.lua
+QuestWaypoints.lua
