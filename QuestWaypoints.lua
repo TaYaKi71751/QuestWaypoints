@@ -227,12 +227,6 @@ QuestWaypoints:SetScript("OnEvent", function(_, event, arg1, arg2,arg3, arg4, ar
 			end)
 		end)
 		hooksecurefunc(QuestPinMixin, 'OnMouseEnter', function(self)
-			if selectedQuest.questID and selectedQuest.questID == self.questID then
-				WorldMapTooltip:AddLine("Remove QuestWaypoints tracking", 1, 0.5, 0)
-			else
-				WorldMapTooltip:AddLine("Right click to track with QuestWaypoints", 0, 1, 0)
-			end
-			WorldMapTooltip:Show();
 		end)
 		hooksecurefunc(QuestPinMixin, 'OnClick', function(self, button)
 			if (button == "RightButton") then
